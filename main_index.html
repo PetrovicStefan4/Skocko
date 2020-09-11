@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumper game</title>
+    <link rel="stylesheet" href="main_style.css" type="text/css">
+</head>
+<body>
+    <section>
+        <h2 class="noselect">Skočko</h2>
+        <div class="set noselect">
+            <div><img src="img/heart.png" alt=""></div>
+            <div><img src="img/clover.png" alt=""></div>
+            <div><img src="img/star.png" alt=""></div>
+            <div><img src="img/romb.png" alt=""></div>
+            <div><img src="img/balloon.png" alt=""></div>
+            <div><img src="img/spade.png" alt=""></div>
+            <div><img src="img/heart.png" alt=""></div>
+            <div><img src="img/clover.png" alt=""></div>
+            <div><img src="img/star.png" alt=""></div>
+            <div><img src="img/romb.png" alt=""></div>
+            <div><img src="img/balloon.png" alt=""></div>
+            <div><img src="img/spade.png" alt=""></div>
+        </div>
+
+    
+        <div class="btn noselect">
+            <a href="#all">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                PLAY GAME
+            </a>
+        </div>
+            
+        <!-- Game -->
+
+
+    </section>
+
+    <div id="all">
+        <table align="center" id="main_t">
+            <tr>
+                <td id="1" class="unos"></td>
+                <td id="2" class="unos"></td>
+                <td id="3" class="unos"></td>
+                <td id="4" class="unos"></td>
+
+                <td class="space" colspan="2"></td>
+                
+                <td class='ispis' id="101"></td>
+                <td class='ispis' id="102"></td>
+                <td class='ispis' id="103"></td>
+                <td class='ispis' id="104"></td>
+            </tr>
+
+            <tr>
+                <td id="5" class="unos"></td>
+                <td id="6" class="unos"></td>
+                <td id="7" class="unos"></td>
+                <td id="8" class="unos"></td>
+
+                <td class='space' colspan="2"></td>
+
+                <td class='ispis' id="205"></td>
+                <td class='ispis' id="206"></td>
+                <td class='ispis' id="207"></td>
+                <td class='ispis' id="208"></td>
+            </tr>
+
+            <tr>
+                <td id='9' class="unos"></td>
+                <td id="10" class="unos"></td>
+                <td id="11" class="unos"></td>
+                <td id="12" class="unos"></td>
+
+                <td class="space" colspan="2"></td>
+
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+            </tr>
+
+            <tr>
+                <td id="13" class="unos"></td>
+                <td id="14" class="unos"></td>
+                <td id="15" class="unos"></td>
+                <td id="16" class="unos"></td>
+
+                <td class="space" colspan="2"></td>
+
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+            </tr>
+
+            <tr>
+                <td id="17" class="unos"></td>
+                <td id="18" class="unos"></td>
+                <td id="19" class="unos"></td>
+                <td id="20" class="unos"></td>
+
+                <td class="space" colspan="2"></td>
+
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+            </tr>
+
+            <tr>
+                <td id="21" class="unos"></td>
+                <td id="22" class="unos"></td>
+                <td id="23" class="unos"></td>
+                <td id="24" class="unos"></td>
+
+                <td class="space" colspan="2"></td>
+
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+            </tr>
+
+            <tr>
+                <td id="25" class="unos"></td>
+                <td id="26" class="unos"></td>
+                <td id="27" class="unos"></td>
+                <td id="28" class="unos"></td>
+
+                <td class="space" colspan="2"></td>
+
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+                <td class='ispis'></td>
+            </tr>
+        </table>
+
+        <table id="konacno_tabela" align="center">
+            <tr>
+                <td class="konacno"></td>
+                <td class="konacno"></td>
+                <td class="konacno"></td>
+                <td class="konacno"></td>
+            </tr>
+        </table>
+
+        <form>
+            <div align="center" class="container choose-elements" >
+
+                <span class="odb"> <img id='btn1' class="odabir" src="img/spade.png"> </span>
+                <span class="odb"><img type="button" id='btn2' class="odabir" src="img/clover.png" ></span>
+                <span class="odb"><img id='btn3' class="odabir" src="img/heart.png"></span>
+                <span class="odb"><img id='btn4' class="odabir" src="img/romb.png"></span>
+                <span class="odb"><img id='btn5' class="odabir" src="img/star.png"></span>
+                <span class="odb"><img id='btn6' class="odabir" src="img/balloon.png"></span>
+            </div>
+            <div align="center" class="container">
+                <button class="btn-game btn1" id="dlt">DELETE</button>
+                <button class="btn-game btn2" id="send">SUBMIT</button>
+            </div>
+        </form>
+
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

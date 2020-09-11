@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#all{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#444,#111);
+    overflow: hidden;
+}
+
+.container {
+text-align: center;
+}
+
+.btn {
+    border: 1px solid #FF5733 ;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'montserrat';
+    cursor: pointer;
+    margin: 10px;
+    color: #fff;
+    background-color: #FF5733 ;
+   
+}
+
+.btn:hover {
+
+    transition: 0.9s;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    border: 1px solid #FF5733 ;
+    transition: 0.9s;
+    transform: scale(1.1);
+}
+
+
+
+table {
+    background: #934A5F;
+    background-blend-mode: hard-light;
+    border-radius: 10px;
+    border: 20px solid radial-gradient(#934A5F,#934A5F,#934A5F,#934A5F,#fff);
+    /* background-color: #934A5F; */
+    position: absolute;
+    box-shadow: 0 0 10px #934A5F ,
+         0 10px 50px #934A5F ,
+        0 0 100px #934A5F ;
+}
+
+#main_t {
+    left: 23.2%;
+    top: 30px;
+}
+
+#konacno_tabela{
+    top: 550px;
+    left: 500px;
+    background: #934A5F;
+}
+
+form {
+    position: absolute;
+    top: 650px;
+    left: 26.2%;
+}
+
+td {
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #934A5F ;
+    background-color: white;
+    position: relative;
+}
+
+.ispis {
+    background-color: white;
+}
+
+.space {
+    background-color: #934A5F ;
+    width: 120px;
+}
+
+.crveno {
+    background-color: red;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.zuto {
+    background-color: yellow;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.odb {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    transition: transform 250ms ease-in-out;
+}
+
+
+.odabir {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    
+}
+
+.odabir:hover, .odabir:focus {
+    transform: scale(1.3);
+}
+
+.simbol {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    text-align: center;
+}
+
+#konacno_tabela {
+    background:#934A5F ;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.choose-elements {
+    background: radial-gradient(#fff,#333);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #934A5F ,
+         0 0 40px #934A5F ,
+        0 0 80px #934A5F ;
+}
